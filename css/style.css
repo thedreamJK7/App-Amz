@@ -344,6 +344,18 @@ header .navbar .menu .btn:hover {
   margin-bottom: 25px;
 }
 
+@media (max-width: 768px) {
+  #third .thirdBox .thirdImgBox {
+    margin: 25px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #third .thirdBox {
+    margin-bottom: 25px;
+  }
+}
+
 #third .thirdBox h2 {
   font-weight: 700;
   margin-bottom: 20px;
@@ -367,6 +379,16 @@ header .navbar .menu .btn:hover {
 #third .thirdBox a:hover i {
   -webkit-transform: scaleX(1.4);
           transform: scaleX(1.4);
+}
+
+/* Fourth section */
+#fourth {
+  padding: 50px 0;
+}
+
+#fourth .fourthTitle h1 {
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
 @media (max-width: 768px) {
